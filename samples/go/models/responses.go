@@ -9,10 +9,10 @@ const (
 	ErrorCodeMethodNotFound               ErrorCode = -32601
 	ErrorCodeInvalidParams                ErrorCode = -32602
 	ErrorCodeInternalError                ErrorCode = -32603
-	ErrorCodeTaskNotFound                 ErrorCode = -32000
-	ErrorCodeTaskNotCancelable            ErrorCode = -32001
-	ErrorCodePushNotificationNotSupported ErrorCode = -32002
-	ErrorCodeUnsupportedOperation         ErrorCode = -32003
+	ErrorCodeTaskNotFound                 ErrorCode = -32001
+	ErrorCodeTaskNotCancelable            ErrorCode = -32002
+	ErrorCodePushNotificationNotSupported ErrorCode = -32003
+	ErrorCodeUnsupportedOperation         ErrorCode = -32004
 )
 
 // A2AError represents an error in the A2A protocol
